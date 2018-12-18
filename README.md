@@ -26,3 +26,18 @@ include all their relevant documentation.
 ## Installation
 
 Copypasta
+
+###
+This script depends on a few tools and variables. This tool depends on git being install and a prop files.
+
+Define a properties file like so:
+```
+export PROP_FILE  := build.properties
+```
+
+build.properties needs the following variables defined in them:
+
+```
+VERSION=1.0.0-SNAPSHOT
+REPO_URL=https://github.com/brightcove/buildsrc
+```
